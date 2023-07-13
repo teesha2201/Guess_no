@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(141, 34, 34, 0.612);
+}
+.main{
+    position:relative;  
+}
+#playagain{
+    
+    color:black;
+    width:10vw;
+    height:8vh;
+    font-size: 24px;
+    /* background-color: aliceblue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    position:relative;
+    top:4vh; 
+    left:4vw;
+    border:5px solid rgb(17, 15, 15); 
+    box-shadow: 14px 12px 4px rgb(119, 58, 58);
+    background-image: linear-gradient(to right, lightblue, gray);
+}
+
+#text{
+    position:absolute;
+    top:4vh;
+    right:4vw;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top:6vh; */
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:6vh;
+    font-style:italic;
+}
+#result{
+    width:10vw;
+    height: 14vh;
+    border: 12px solid black;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:18vh;
+    font-size: 40px;
+    background-image: linear-gradient(to right, lightblue, gray);
+}
+#backline{
+    width:100vw;
+    height:2vh;
+    /* background-color: aliceblue; */
+    position: absolute;
+    top:24vh;
+    z-index: -1;
+    background-image: linear-gradient(to right, lightblue, gray);
+}
+.leftdiv{
+   /* display: grid;
+   grid-template-columns: 16vw;
+   grid-template-rows: 10vw 4vw; */
+   /* row-gap: 1vh;  */
+   display:flex;
+   flex-direction: column;
+   row-gap: 2vw;
+   justify-content: center;
+   align-items: center;
+   position:absolute;
+   top:44vh;
+   left:12vw; 
+   /* border: 3px solid black; */
+}
+input{
+    width: 15vw;
+    height: 14vh; 
+    background-image: linear-gradient(to right, lightblue, gray);
+    border: 5px solid rgb(50, 45, 45);
+    font-size: 40px;
+    text-align: center;
+    background-color:rgba(162, 151, 151, 0.969);
+    /* background-color: rgba(141, 34, 34, 0.734) */
+    /* position: relative;
+    left:1vw */
+    /* display: flex; */    
+
+}
+button{
+   width:8vw;
+   height: 8vh;
+   border: 14px solid rgb(88, 83, 83);
+   font-size:24px;
+   background-image: linear-gradient(270deg,gray,rgb(104, 72, 72));
+   /* position: relative;
+   left:4vw; */
+}
+.rightdiv{
+    /* width:20vw;
+    height: 20vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    row-gap: 1vw;
+    /* border: 3px solid black; */
+    position: absolute;
+    top:44vh;
+    right: 12vw;
+}
+#message{
+    line-height: 8vh;
+    font-size:34px;
+}
+#chances , #highscore
+{
+    font-size:20px;
+    /* border: 2px solid black; */
+}
