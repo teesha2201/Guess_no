@@ -73,4 +73,4 @@ function reset() //play again
 
 } 
   
-}
+
