@@ -56,6 +56,7 @@ console.log(randomnumber);
 
 function reset() //play again
 {
+    console.log("resetted")
     nochance=100;
     document.body.style.backgroundColor = "Cadetblue";
     randomnumber = random(100);
