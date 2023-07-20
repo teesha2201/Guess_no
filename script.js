@@ -71,6 +71,6 @@ function reset() //play again
    
     /*again */
 
-    
+} 
   
 }
